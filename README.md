@@ -1,15 +1,15 @@
 # Sticky Stacker [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
 
-**Warning: Early alpha draft!*** *A library for stacking sticky things.*
+**Warning: Early alpha draft!** *A library for stacking sticky things.*
 
 ## Introduction
 > **Use Case**: You need to build a multi-column webpage with several elements scattered throughout that need to stick to the viewport without overlapping as the user scrolls past them.
 
-Sticky Stacker is a library designed to trivialize sticky element stacking in an intuitive way. Rather than caring about the page layout, Sticky Stacker simply uses 2d collision detection to determine whether an element has collided with either a sticking element or the edge of the viewport. You simply need to wrap your element with the react component provided and let the library take care of the rest!
+Sticky Stacker is a library designed to trivialize the task of getting elements to stick to the viewport without overlapping. Rather than caring about the page layout, Sticky Stacker simply uses 2d collision detection to determine whether an element has collided with either a sticking element or the edge of the viewport. You simply need to wrap your element with the react component provided and let the library take care of the rest!
 
 ## Notes
 
-**Do not use this library in any production code!** The version available here is nothing more than an initial draft to flesh out the library. Code lacks unit testing, is brittle and inneficient, and has not been run in any browser besides Chrome. Furthermore, there are likely to be massive revisions to the interfacing components before the production-ready release. That being said, please feel free to play with the library as you like!
+**Do not use this library in any production code!** The version available here is nothing more than an initial draft to flesh out the library. Code lacks unit testing, is brittle and inefficient, and has not been run in any browser besides Chrome. Furthermore, it is likely for there to be massive revisions to the interfacing components before the production-ready release. That being said, please feel free to play with the library as you like!
 
 ### Goals
 * Refactor code to address glaring issues.
@@ -17,7 +17,7 @@ Sticky Stacker is a library designed to trivialize sticky element stacking in an
 * Let scrollable page elements stack sticky things (not just window).
 * Enable configuration of sticky elements.
 * Create plugin interface and life-cycle hooks.
-* Support other popular frameworks besides react.
+* Support other popular view frameworks.
 
 ## License
 
